@@ -1,66 +1,110 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ghostline Inks</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0a0a0a;
-      color: #fff;
-    }
-    header {
-      text-align: center;
-      padding: 40px 20px;
-      background: #111;
-      border-bottom: 2px solid #ff2e88;
-    }
-    header img {
-      width: 180px;
-      border-radius: 10px;
-    }
-    h1 {
-      color: #ff2e88;
-      margin: 10px 0;
-    }
-    .description {
-      font-style: italic;
-      color: #ccc;
-    }
-    section {
-      padding: 40px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-    .price-list {
-      border: 1px solid #ff2e88;
-      border-radius: 10px;
-      padding: 20px;
-    }
-    .price-item {
-      display: flex;
-      justify-content: space-between;
-      padding: 10px 0;
-      border-bottom: 1px solid #333;
-    }
-    .price-item:last-child {
-      border-bottom: none;
-    }
-    .highlight {
-      color: #ff2e88;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: #111;
-      border-top: 2px solid #ff2e88;
-    }
-    a {
-      color: #ff2e88;
-      text-decoration: none;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Website</title>
+    <style>
+        /* CSS: This makes it look pretty */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            color: #333;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #34495e;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            background-color: #1abc9c;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: white;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            font-size: 0.8rem;
+            color: #777;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #1abc9c;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background: #16a085;
+        }
+    </style>
 </head>
-<body><header>
-  <!-- Replace with your logo
+<body>
+
+    <header>
+        <h1>Welcome to My Website</h1>
+        <p>A simple project created with HTML and CSS</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="container">
+        <h2>About This Page</h2>
+        <p>This is a basic template to help you understand the structure of a webpage. Everything you see here is built using standard components:</p>
+        
+        <ul>
+            <li><strong>HTML5:</strong> The structure and content.</li>
+            <li><strong>CSS3:</strong> The layout, colors, and fonts.</li>
+            <li><strong>Responsive Design:</strong> It works on most screen sizes!</li>
+        </ul>
+
+        <p>Feel free to edit the text in the code and refresh your browser to see the changes happen in real-time.</p>
+        
+        <a href="#" class="btn" onclick="alert('Hello! You clicked the button.')">Click Me!</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 My Simple Website | Built with Gemini</p>
+    </footer>
+
+</body>
+</html>
