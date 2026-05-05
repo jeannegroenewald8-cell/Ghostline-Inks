@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghostline Inks | Bold Art & Timeless Ink</title>
+    <style>
+        :root {
+            --neon-pink: #ff2d95;
+            --neon-red: #ff0000;
+            --dark-bg: #0a0a0a;
+            --card-bg: #151515;
+            --text-light: #f4f4f4;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--dark-bg);
+            color: var(--text-light);
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('logo.jpg'); /* Replace with your image path */
+            background-size: cover;
+            border-bottom: 2px solid var(--neon-pink);
+        }
+
+        .logo-text {
+            font-family: 'Georgia', serif;
+            font-size: 3rem;
+            color: var(--neon-pink);
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            text-shadow: 0 0 10px var(--neon-pink);
+            margin-bottom: 10px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+            padding: 30px;
+            background: var(--card-bg);
+            border-radius: 8px;
+            border-left: 4px solid var(--neon-red);
+        }
+
+        h2 {
+            color: var(--neon-pink);
+            text-transform: uppercase;
+            border-bottom: 1px solid #333;
+            padding-bottom: 10px;
+        }
+
+        .price-list {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .price-list tr {
+            border-bottom: 1px solid #222;
+        }
+
+        .price-list td {
+            padding: 12px 0;
+        }
+
+        .price-val {
+            text-align: right;
+            color: var(--neon-pink);
+            font-weight: bold;
+        }
+
+        .contact-btn {
+            display: inline-block;
+            background: var(--neon-pink);
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: 0.3s;
+        }
+
+        .contact-btn:hover {
+            box-shadow: 0 0 20px var(--neon-pink);
+            transform: scale(1.05);
+        }
+
+        .footer {
+            text-align: center;
+            padding: 40px;
+            font-style: italic;
+            color: #666;
+        }
+
+        .service-badge {
+            background: #222;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            border: 1px solid var(--neon-red);
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo-text">Ghostline Inks</div>
+    <p>Bold Art. Clean Lines. Timeless Ink.</p>
+</header>
+
+<div class="container">
+    
+    <div class="section">
+        <h2>About Us</h2>
+        <p>At Ghostline Inks, we turn your ideas into powerful, custom tattoos with precision and passion. Whether it's your first piece or a full sleeve, our focus is on quality and artistic integrity.</p>
+        <div style="margin-top: 20px;">
+            <span class="service-badge">Custom Tattoos</span>
+            <span class="service-badge">Simple Website Designs</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Pricelist (Estimated)</h2>
+        <table class="price-list">
+            <tr>
+                <td>Minimum Charge</td>
+                <td class="price-val">R400 – R750</td>
+            </tr>
+            <tr>
+                <td>Small Tattoo (±5cm)</td>
+                <td class="price-val">R500 – R1,500</td>
+            </tr>
+            <tr>
+                <td>Medium Tattoo (10cm – 15cm)</td>
+                <td class="price-val">R1,500 – R4,000</td>
+            </tr>
+            <tr>
+                <td>Large Pieces (Half / Full Sleeve)</td>
+                <td class="price-val">R3,500 – R40,000+</td>
+            </tr>
+            <tr>
+                <td>Hourly Rate</td>
+                <td class="price-val">R1,000 – R2,000</td>
+            </tr>
+        </table>
+        <p style="font-size: 0.8rem; color: #888; margin-top: 15px;">
+            * A 20% – 25% deposit is required. Pricing varies based on detail and placement.
+        </p>
+    </div>
+
+    <div class="section" style="text-align: center;">
+        <h2>Get Inked</h2>
+        <p>Ready to start your next project? Contact us today.</p>
+        <p style="font-size: 1.5rem; letter-spacing: 2px;">075 459 5441</p>
+        <a href="tel:0754595441" class="contact-btn">Call or WhatsApp Now</a>
+    </div>
+
+</div>
+
+<div class="footer">
+    "Your vision. Our art. Forever inked."
+</div>
+
+</body>
+</html>
